@@ -1,0 +1,17 @@
+{
+  "name": "rgs_api_automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:dev": "npx playwright test",
+    "reports": "npx playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.54.2",
+    "@types/node": "^24.2.1"
+  }
+}
