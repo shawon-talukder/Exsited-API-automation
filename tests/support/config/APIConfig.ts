@@ -36,4 +36,7 @@ const APIConfig = {
     endpoints: APIEndpoints
 }
 
-module.exports = { apiConfig: APIConfig, APIEndpoints }
+export const config = {
+    apiConfig: APIConfig,
+    APIEndpoints
+}
