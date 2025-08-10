@@ -1,4 +1,12 @@
 class APIEndpoints {
+    // authentication endpoints
+    static get AUTH() {
+        return "/oauth2/token"
+    }
+
+    /**
+     * Object: Accounts
+     */
     static get ACCOUNTS() {
         return {
             BASE: "/accounts",
@@ -10,10 +18,13 @@ class APIEndpoints {
         }
     }
 
+    /**
+     * Object: Orders
+     */
     static get ORDERS() {
         return {
             BASE: "/orders",
-            BY_ID: (order_id) => `/orders/${order_id}`
+            BY_ID: (order_id: string) => `/orders/${order_id}`
         }
     }
 }
