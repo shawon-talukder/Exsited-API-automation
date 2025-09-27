@@ -3,6 +3,7 @@ import { config } from "../config/APIConfig";
 class APIUtils {
     configuration = {};
     defaultHeaders = {};
+
     /**
      * Initialize testCaseAPI Utils
      * @param {string} baseURL - Base URL of the testCaseAPI
