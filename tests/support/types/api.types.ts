@@ -9,7 +9,7 @@ export interface APIHeaders {
 }
 
 export interface RequestOptions {
-    method: 'GET' | 'POST' | 'PUT' | 'DELETE';
+    method: 'GET' | 'POST' | 'PATCH' | 'PUT' | 'DELETE';
     endpoint: string;
     data?: any;
     headers?: APIHeaders;

@@ -64,6 +64,9 @@ class APIUtils {
                 case 'POST':
                     response = await context.post(endpoint, { data });
                     break;
+                case 'PATCH':
+                    response = await context.put(endpoint, { data });
+                    break;
                 case 'PUT':
                     response = await context.put(endpoint, { data });
                     break;
